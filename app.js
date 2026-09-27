@@ -7,7 +7,7 @@ const today = new Date(); today.setHours(0,0,0,0);
 let selectedDate = new Date(today), calendarDate = new Date(today), heatmapMonth = new Date(today.getFullYear(),today.getMonth(),1), range = 'day', reminderTab = 'upcoming';
 const seed = {tasks:[
   {id:'words',name:'日语：每天背10个单词',frequency:'daily',unit:'个',target:10,description:'记录当天背诵的单词'},
-  {id:'phrase',name:'日语：每天背一句商务短句',frequency:'daily',unit:'句',target:1,description:'记录当天背诵的商务短句'},
+  {id:'phrase',name:'日语：每天背1句短句',frequency:'daily',unit:'句',target:1,description:'记录当天背诵的短句'},
   {id:'run',name:'运动：每月跑步30公里',frequency:'daily',unit:'公里',target:1,monthlyTarget:30,description:'每月累计跑步 30 公里'},
   {id:'reading',name:'读书：每天30分钟',frequency:'daily',unit:'分钟',target:30,description:'记录当天读书时长'},
   {id:'early',name:'早起：每天6点起床',frequency:'daily',unit:'次',target:1,description:'每天 6 点起床'},
