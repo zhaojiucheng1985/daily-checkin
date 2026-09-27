@@ -1,0 +1,5 @@
+#auth-dialog { width: min(430px, calc(100vw - 32px)); }
+#auth-dialog form { display: grid; gap: 14px; }
+.auth-message { min-height: 1.35em; margin: -3px 0 0; color: var(--ink-soft, #65756f); font-size: 13px; line-height: 1.45; }
+.auth-message.error { color: #a34b48; }
+#auth-button { white-space: nowrap; }
