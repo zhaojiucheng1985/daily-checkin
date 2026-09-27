@@ -1,0 +1,12 @@
+.mini-calendar-stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 9px;
+  color: #7e8782;
+  font-size: .66rem;
+}
+
+.mini-calendar-stats b {
+  color: #506a5e;
+  font-variant-numeric: tabular-nums;
+}
