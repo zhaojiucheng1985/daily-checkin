@@ -1,0 +1,18 @@
+/* 提醒的相对日期：与“定期”保持相同信息层级。 */
+.reminder {
+  grid-template-columns: 48px auto 1fr auto auto;
+}
+
+.reminder-countdown {
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: #f5edc9;
+  color: #9b8247;
+  font-size: .68rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .reminder { grid-template-columns: 44px auto 1fr auto; }
+}
